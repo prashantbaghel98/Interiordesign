@@ -2,9 +2,14 @@
 
 body{
     margin: 0px 100px;
+    background-color: #f4efef;
 }
 
 button{
+    cursor: pointer;
+}
+
+.btn{
     background-color: black;
     color: white;
     padding: 8px 25px;
@@ -12,11 +17,11 @@ button{
 }
 
 section{
-    margin: 150px 0px;
+    margin-bottom: 100px;
 }
 
 h1{
-    font-size: 133px;
+    font-size: 100px;
 }
 
 h2{
@@ -24,7 +29,7 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -46,6 +51,11 @@ p{
     
     h2{
         font-size: 30px;
+        font-weight: 600;
+    }
+
+    h3{
+        font-size: 20px;
     }
     
     p{

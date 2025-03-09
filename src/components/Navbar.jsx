@@ -32,7 +32,7 @@ const Navbar = () => {
           <li>Service</li>
           <li>Contact</li>
           <li>Support</li>
-          <button>Sign Up</button>
+          <button className='btn'>Sign Up</button>
         </ul>
       </div>
     </nav>

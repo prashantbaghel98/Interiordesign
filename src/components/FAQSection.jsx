@@ -38,14 +38,16 @@ const FAQSection = () => {
 
 
     return (
-        <section className='flex gap-20'>
-            <div className='w-[80%]'>
-                <img src="./Mask group.png" alt="" className='' />
+        <section className='lg:flex gap-20'>
+            <div className='lg:w-[80%] mb-5 lg:mb-0'>
+                <img src="./Mask group.png" alt="" className='h-full' />
             </div>
 
-            <div className='flex flex-col gap-4'>
+            <div className='flex flex-col justify-between'>
+                <div className="flex flex-col gap-5">
                 <h3>Designing Your Dream With Brilliance</h3>
                 <p>Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience</p>
+                </div>
 
 
                 <div className="my-5">
@@ -65,7 +67,7 @@ const FAQSection = () => {
                     
                 </div>
                 <div>
-                <button>Learn More</button>
+                <button className="btn">Learn More</button>
                 </div>
             </div>
 

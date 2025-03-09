@@ -2,12 +2,11 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='my-5'>
+    <section className=''>
       <div className='flex-wrap flex md:grid lg:grid grid-cols-3 gap-5'>
         <div className='col-span-2'>
           <h1>Interior Design</h1>
-          <p>Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge
-            modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+          <p className='lg:w-180'>Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
         </div>
 
         <div className='col-span-1'>
@@ -17,7 +16,7 @@ const Hero = () => {
 
       <div className='  sm:flex gap-5 my-15 '>
         <div className='grid content-between'>
-          <button className=' w-fit mx-auto sm:mx-0'>Start Project</button>
+          <button className=' bg-black lg:text-4xl text-white py-3 px-6 mb-10 lg:py-6 lg:px-10 rounded w-fit mx-auto sm:mx-0'>Start Project</button>
           <div className='flex md:gap-5'>
             <div>
               <h2>400+</h2>

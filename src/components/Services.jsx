@@ -7,7 +7,7 @@ const Services = () => {
                 <hr className='w-25 border-2' />
                 <h2>Our Services</h2>
             </div>
-            <div className='flex gap-20'>
+            <div className='flex gap-10'>
                 <SectionLayout image="./Lighting design icon.png" title="Lighting Design" desc="Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere" />
                 <SectionLayout image="./Lighting design icon.png" title="Lighting Design" desc="Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere" />
                 <SectionLayout image="./Lighting design icon.png" title="Lighting Design" desc="Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere" />
@@ -21,9 +21,9 @@ export default Services
 
 const SectionLayout = (props) => {
     return (
-        <div className='flex gap-5'>
+        <div className='lg:flex gap-5'>
             <div>
-                <img src={props.image} alt="" className='w-30'/>
+                <img src={props.image} alt="" className='w-15 lg:w-30'/>
             </div>
             <div className='flex flex-col gap-5'>
                 <h3 className=''>{props.title}</h3>
