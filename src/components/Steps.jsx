@@ -2,7 +2,7 @@ import React from 'react'
 
 const Steps = () => {
     return (
-        <section className='sm:flex justify-between'>
+        <section className='sm:flex justify-between' id='about'>
             <div className='sm:w-[70%]'>
             <div>
                     <h2>Designing Your Dream in Three Simple Steps</h2>

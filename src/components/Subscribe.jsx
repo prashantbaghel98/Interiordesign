@@ -3,7 +3,7 @@ import { Mail } from 'lucide-react';
 
 const Subscribe = () => {
     return (
-        <section className='flex flex-col items-center gap-10'>
+        <section className='flex flex-col items-center gap-10' id='contact'>
             <div className='text-center'>
             <h2 className='mb-5 sm:mb-10' >Subscribe to Our Newsletter<br/> for Design Insights</h2>
             <p>Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>

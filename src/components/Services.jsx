@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <section>
+        <section id='services'>
             <div className='flex items-center gap-2 mb-10'>
                 <hr className='w-25 border-2' />
                 <h2>Our Services</h2>
