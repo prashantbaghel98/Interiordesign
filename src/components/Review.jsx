@@ -2,13 +2,13 @@ import React from 'react'
 
 const Review = () => {
     return (
-        <section className='sm:flex gap-10 '>
-            <div className='sm:w-[40%] '>
+        <section className='lg:flex gap-10 '>
+            <div className='lg:w-[40%] '>
                 <img src="./Image.png" alt="" className='h-full' />
             </div>
 
-            <div className=' sm:w-[60%]'>
-                <h2 className='my-10 text-center sm:text-start sm:my-0'>What Our Customers Say About Us</h2>
+            <div className=' lg:w-[60%]'>
+                <h2 className='my-10 text-center lg:text-start sm:my-0'>What Our Customers Say About Us</h2>
                 <div className='flex flex-wrap sm:flex-nowrap bg-white m-2  gap-5'>
 
                     <ReviewLayout desc="Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations.  Thank you for making my home beautiful!" image="./Review.png" name="Sophie Carter" place="New York, USA" className=""/>
